@@ -43,5 +43,5 @@
     "autoload": {
         "psr-0": { "JMS\\JobQueueBundle": "" }
     },
-    "target-dir": "JMS/JobQueueBundle",
+    "target-dir": "JMS/JobQueueBundle"
 }
