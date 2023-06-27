@@ -7,6 +7,7 @@ declare(ticks = 10000000);
 use Doctrine\DBAL\Statement;
 use Doctrine\DBAL\Types\Type;
 
+use JMS\JobQueueBundle\Entity\Job;
 use Symfony\Bundle\FrameworkBundle\Console\Application as BaseApplication;
 use Symfony\Component\Console\Input\InputInterface;
 use Symfony\Component\Console\Input\InputOption;
