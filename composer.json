@@ -19,7 +19,7 @@
         "symfony/framework-bundle": "^7.0",
         "symfony/error-handler": "^7.0",
         "doctrine/common": "^3.0",
-        "symfony/process": "^7.0"
+        "symfony/process": "^7.0",
     },
     "require-dev": {
         "doctrine/doctrine-fixtures-bundle": "*",
