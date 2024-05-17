@@ -1,6 +1,6 @@
 {
     "name":         "jbdumaine/job-queue-bundle",
-    "description":  "Support for PHP 8, Symfony 5 and Doctrine Common 3",
+    "description":  "Support for PHP 8, Symfony 7 and Doctrine Common 3",
     "keywords":     ["job","queue", "background", "cron", "scheduled"],
     "homepage":     "http://jmsyst.com/bundles/JMSJobQueueBundle",
     "type":         "symfony-bundle",
@@ -15,15 +15,14 @@
         }
     ],
     "require": {
-        "php": ">=8.1",
-        "symfony/framework-bundle": "^6.2",
-        "symfony/error-handler": "^6.2",
+        "php": ">=8.2",
+        "symfony/framework-bundle": "^7.0",
+        "symfony/error-handler": "^7.0",
         "doctrine/common": "^3.0",
-        "symfony/process": "^6.2"
+        "symfony/process": "^7.0"
     },
     "require-dev": {
         "doctrine/doctrine-fixtures-bundle": "*",
-        "sensio/framework-extra-bundle": "*",
         "symfony/class-loader": "*",
         "symfony/yaml": "*",
         "symfony/browser-kit": "*",
