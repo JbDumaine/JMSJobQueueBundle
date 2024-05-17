@@ -30,7 +30,7 @@ class CleanUpCommand extends Command
         $this->registry = $registry;
     }
 
-    protected function configure()
+    protected function configure(): void
     {
         $this
             ->addOption('max-retention', null, InputOption::VALUE_REQUIRED, 'The maximum retention time (value must be parsable by DateTime).', '7 days')
@@ -39,7 +39,7 @@ class CleanUpCommand extends Command
         ;
     }
 
-    protected function execute(InputInterface $input, OutputInterface $output)
+    protected function execute(InputInterface $input, OutputInterface $output): int
     {
         /** @var EntityManager $em */
         $em = $this->registry->getManagerForClass(Job::class);
